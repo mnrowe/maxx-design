@@ -8,6 +8,12 @@ header {
   margin-top: 1.5em;
 }
 
+.container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto lfr auto;
+}
+
 .max-logo {
   max-width: 150px;
 }
