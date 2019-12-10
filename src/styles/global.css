@@ -1,10 +1,21 @@
+body {
+  margin: 0;
+}
+
 header {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .max-logo {
-    max-width: 150px;
+  max-width: 150px;
 }
 
+.intro,
+.title {
+  margin: 0;
+}
 
+.jumbotron {
+  max-width: 100%;
+}
