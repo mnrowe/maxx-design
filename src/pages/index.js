@@ -24,6 +24,6 @@ export default () => (
         <Card siteName="so" siteUrl="so.com" />
       </div>
     </section>
-    <Footer />
+    <Footer name="Sam's" />
   </div>
 )
