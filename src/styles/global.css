@@ -1,7 +1,10 @@
 header {
     display: flex;
+    justify-content: space-around;
 }
 
-img {
+.max-logo {
     max-width: 150px;
 }
+
+
