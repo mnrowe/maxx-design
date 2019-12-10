@@ -2,7 +2,7 @@ import React from "react"
 import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
 import boat from "./boat.jpg"
-import road from './road.jpg'
+import road from "./road.jpg"
 import trees from "./trees.jpeg"
 import Card from "../components/card"
 import Footer from "../components/footer"
@@ -18,12 +18,27 @@ export default () => (
       </div>
     </header>
     <section className="content">
-      <Jumbotron src={hero} alt="image with snow" />
+      <Jumbotron src={hero} alt="Big mountain with snow on it with blue lake at bottom and trees all around" />
       <h2 className="cards-title">PORTFOLIO</h2>
       <div className="deck">
-        <Card siteName="test" siteUrl="test.com" src={boat} />
-        <Card siteName="dog" siteUrl="dog.com" src={road}/>
-        <Card siteName="so" siteUrl="so.com" src={trees} />
+        <Card
+          siteName="test"
+          siteUrl="test.com"
+          alt="Boat with sunset in background"
+          src={boat}
+        />
+        <Card
+          siteName="dog"
+          siteUrl="dog.com"
+          alt="Trees with long dirt road"
+          src={road}
+        />
+        <Card
+          siteName="so"
+          siteUrl="so.com"
+          alt="Multiple trees with fog above them"
+          src={trees}
+        />
       </div>
     </section>
     <Footer name="Sam's" />
