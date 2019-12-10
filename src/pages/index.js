@@ -2,7 +2,7 @@ import React from "react"
 import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
 import boat from "./boat.jpg"
-import road from "./road.jpg"
+import road from './road.jpg'
 import trees from "./trees.jpeg"
 import Card from "../components/card"
 import Footer from "../components/footer"
@@ -22,7 +22,7 @@ export default () => (
       <h2 className="cards-title">PORTFOLIO</h2>
       <div className="deck">
         <Card siteName="test" siteUrl="test.com" src={boat} />
-        <Card siteName="dog" siteUrl="dog.com" src={road} />
+        <Card siteName="dog" siteUrl="dog.com" src={road}/>
         <Card siteName="so" siteUrl="so.com" src={trees} />
       </div>
     </section>
