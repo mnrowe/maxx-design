@@ -9,19 +9,24 @@ header {
 }
 
 .container {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto lfr auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
 }
 
 .max-logo {
   max-width: 150px;
+  max-height: 80px;
 }
 
 .designer-quote {
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
 }
 
 .intro,
@@ -42,8 +47,4 @@ header {
 .deck {
   display: flex;
   justify-content: space-evenly;
-}
-
-.copyright {
-  text-align: center;
 }

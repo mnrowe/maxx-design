@@ -1,4 +1,7 @@
 .container {
     text-align: center;
-    background: grey;
+    background-color: grey;
+    padding: 40px;
+    opacity: 0.5;
+    color: white;
 }

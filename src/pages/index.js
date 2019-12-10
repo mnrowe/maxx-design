@@ -13,17 +13,19 @@ export default () => (
         <h3 class="title">Web Designer</h3>
       </quote>
     </header>
-    <img
-      class="jumbotron"
-      src={hero}
-      alt="Mountains with snow and big blue lake"
-    />
-    <h2 class="cards-title">PORTFOLIO</h2>
-    <div class="deck">
-      <Card />
-      <Card />
-      <Card />
-    </div>
+    <section class="contnet">
+      <img
+        class="jumbotron"
+        src={hero}
+        alt="Mountains with snow and big blue lake"
+      />
+      <h2 class="cards-title">PORTFOLIO</h2>
+      <div class="deck">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </section>
     <Footer />
   </div>
 )
