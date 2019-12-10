@@ -32,3 +32,8 @@ header {
 .cards-title {
   text-align: center;
 }
+
+.deck {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
+import Card from "../components/card.js"
 
 export default () => (
   <div class="container">
@@ -17,5 +18,10 @@ export default () => (
       alt="Mountains with snow and big blue lake"
     />
     <h2 class="cards-title">PORTFOLIO</h2>
+    <div class="deck">
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </div>
 )
