@@ -2,11 +2,11 @@ import React from "react"
 import logo from "./company-logo.png"
 
 export default () => (
-  <header>
+  <header style={{ display: `flex` }}>
     <img style={{ maxWidth: `150px` }} src={logo} alt="MAXX Potential Logo" />
-    <div class="">
-      <h1>HELLO I'M SAM</h1>
-      <h2>Web Designer</h2>
-    </div>
+    <quote>
+      <h2>HELLO I'M SAM</h2>
+      <h3>Web Designer</h3>
+    </quote>
   </header>
 )
