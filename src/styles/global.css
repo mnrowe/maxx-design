@@ -34,12 +34,6 @@ header {
   margin: 0;
 }
 
-.jumbotron {
-  max-width: 100%;
-  height: auto;
-  margin-top: 1.5em;
-}
-
 .cards-title {
   text-align: center;
 }

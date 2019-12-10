@@ -3,24 +3,21 @@ import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
 import Card from "../components/card"
 import Footer from "../components/footer"
+import Jumbotron from "../components/jumbotron"
 
 export default () => (
-  <div class="container">
+  <div className="container">
     <header>
-      <img class="max-logo" src={logo} alt="MAXX Potential Logo" />
-      <quote class="designer-quote">
-        <h2 class="intro">HELLO I'M SAM</h2>
-        <h3 class="title">Web Designer</h3>
-      </quote>
+      <img className="max-logo" src={logo} alt="MAXX Potential Logo" />
+      <div className="designer-quote">
+        <h2 className="intro">HELLO I'M SAM</h2>
+        <h3 className="title">Web Designer</h3>
+      </div>
     </header>
-    <section class="content">
-      <img
-        class="jumbotron"
-        src={hero}
-        alt="Mountains with snow and big blue lake"
-      />
-      <h2 class="cards-title">PORTFOLIO</h2>
-      <div class="deck">
+    <section className="content">
+      <Jumbotron src={hero} alt="image with snow" />
+      <h2 className="cards-title">PORTFOLIO</h2>
+      <div className="deck">
         <Card />
         <Card />
         <Card />
