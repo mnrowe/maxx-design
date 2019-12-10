@@ -13,7 +13,7 @@ export default () => (
         <h3 class="title">Web Designer</h3>
       </quote>
     </header>
-    <section class="contnet">
+    <section class="content">
       <img
         class="jumbotron"
         src={hero}
