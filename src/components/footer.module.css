@@ -1,7 +1,6 @@
 .container {
     text-align: center;
-    background-color: grey;
+    background-color: #3D3D3D;
     padding: 40px;
-    opacity: 0.5;
     color: white;
 }
