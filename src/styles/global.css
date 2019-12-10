@@ -1,0 +1,7 @@
+header {
+    display: flex;
+}
+
+img {
+    max-width: 150px;
+}
