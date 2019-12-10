@@ -1,7 +1,8 @@
 import React from "react"
 import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
-import Card from "../components/card.js"
+import Card from "../components/card"
+import Footer from "../components/footer"
 
 export default () => (
   <div class="container">
@@ -23,5 +24,6 @@ export default () => (
       <Card />
       <Card />
     </div>
+    <Footer />
   </div>
 )
