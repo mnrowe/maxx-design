@@ -11,6 +11,11 @@ export default () => (
         <h3 class="title">Web Designer</h3>
       </quote>
     </header>
-    <img class="jumbotron" src={hero} alt="Mountains with snow and big blue lake"/>
+    <img
+      class="jumbotron"
+      src={hero}
+      alt="Mountains with snow and big blue lake"
+    />
+    <h2 class="cards-title">PORTFOLIO</h2>
   </div>
 )
