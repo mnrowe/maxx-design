@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "./company-logo.png"
 import hero from "./hero1.jpg"
+import boat from "./boat.jpg"
 import Card from "../components/card"
 import Footer from "../components/footer"
 import Jumbotron from "../components/jumbotron"
@@ -18,9 +19,9 @@ export default () => (
       <Jumbotron src={hero} alt="image with snow" />
       <h2 className="cards-title">PORTFOLIO</h2>
       <div className="deck">
-        <Card />
-        <Card />
-        <Card />
+        <Card siteName="test" siteUrl="test.com" src={boat} />
+        <Card siteName="dog" siteUrl="dog.com" />
+        <Card siteName="so" siteUrl="so.com" />
       </div>
     </section>
     <Footer />
