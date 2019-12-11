@@ -44,3 +44,11 @@ header {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 650px) {
+  .deck {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
