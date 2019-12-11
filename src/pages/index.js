@@ -1,9 +1,9 @@
 import React from "react"
-import logo from "./company-logo.png"
-import hero from "./hero1.jpg"
-import boat from "./boat.jpg"
-import road from "./road.jpg"
-import trees from "./trees.jpeg"
+import logo from "../imgs/company-logo.png"
+import hero from "../imgs/hero1.jpg"
+import boat from "../imgs/boat.resized.jpg"
+import road from "../imgs/road.resized.jpg"
+import trees from "../imgs/trees.resized.jpeg"
 import Card from "../components/card"
 import Footer from "../components/footer"
 import Jumbotron from "../components/jumbotron"
@@ -23,20 +23,20 @@ export default () => (
       <p className="cards-title">PORTFOLIO</p>
       <div className="deck">
         <Card
-          siteName="test"
-          siteUrl="test.com"
+          siteName="TECHNOLINE"
+          siteUrl="techoline.com"
           alt="Boat with sunset in background"
           src={boat}
         />
         <Card
-          siteName="dog"
-          siteUrl="dog.com"
+          siteName="MAJESTIQUE"
+          siteUrl="majestique.com"
           alt="Trees with long dirt road"
           src={road}
         />
         <Card
-          siteName="so"
-          siteUrl="so.com"
+          siteName="SILVERZIM"
+          siteUrl="silverzim.com"
           alt="Multiple trees with fog above them"
           src={trees}
         />

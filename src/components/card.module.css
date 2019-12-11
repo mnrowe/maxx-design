@@ -17,9 +17,10 @@
 }
 
 .image {
-  max-width: 200px;
+  height: 169px;
+  width: 100%;
+  display: block;
   margin-top: 20px;
-  background-size: 150px;
 }
 
 .title,
