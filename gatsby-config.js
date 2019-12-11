@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/maxx-site",
+  pathPrefix: "/maxx-design",
 }
