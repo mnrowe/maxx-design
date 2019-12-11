@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "../imgs/company-logo.png"
-import hero from "../imgs/hero1.resized.jpg"
+import hero from "../imgs/hero1.jpg"
 import boat from "../imgs/boat.resized.jpg"
 import road from "../imgs/road.resized.jpg"
 import trees from "../imgs/trees.resized.jpeg"
