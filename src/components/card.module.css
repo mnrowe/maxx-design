@@ -22,6 +22,10 @@
   .image {
     width: 60% !important;
   }
+
+  .textContainer {
+    margin: 0 10px;
+  }
 }
 
 

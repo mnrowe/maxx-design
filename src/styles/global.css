@@ -8,6 +8,12 @@
   src: url("../fonts/Helvetica-Neue-Light.ttf")
 }
 
+@media (max-width: 315px) {
+  .max-logo {
+    margin-right: 10px;
+  }
+}
+
 body {
   margin: 0;
 }
