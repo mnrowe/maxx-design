@@ -7,6 +7,8 @@ export default props => (
       <p className={styles.title}>{props.siteName}</p>
       <p className={styles.url}><em>{props.siteUrl}</em></p>
     </div>
-    <img alt={props.alt} className={styles.image} src={props.src} />
+    <div className={styles.frameContainer}>
+        <img alt={props.alt} className={styles.image} src={props.src} />
+    </div>
   </div>
 )

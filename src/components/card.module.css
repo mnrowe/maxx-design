@@ -10,8 +10,17 @@
 
 @media (max-width: 650px) {
   .container {
-    margin: 10px 0;
+    margin: 20px 0;
     margin-right: 0 !important;
+  }
+
+  .frameContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 60% !important;
   }
 }
 
@@ -52,3 +61,4 @@
   border-bottom: 4px solid #0d4b6e;
   padding: 0 10px;
 }
+
