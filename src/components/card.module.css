@@ -11,6 +11,7 @@
 @media (max-width: 650px) {
   .container {
     margin: 10px 0;
+    margin-right: 0 !important;
   }
 }
 
