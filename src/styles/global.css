@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("../fonts/Helvetica-Neue-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../fonts/Helvetica-Neue-Light.ttf")
+}
+
 body {
   margin: 0;
 }
@@ -23,18 +33,10 @@ header {
   max-height: 80px;
 }
 
-.designer-quote {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.intro,
-.title {
-  margin: 0;
-}
 .cards-title {
   text-align: center;
+  font-family: "Helvetica Neue Bold";
+  font-size: 28px;
 }
 
 .deck {

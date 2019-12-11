@@ -7,19 +7,20 @@ import trees from "./trees.jpeg"
 import Card from "../components/card"
 import Footer from "../components/footer"
 import Jumbotron from "../components/jumbotron"
+import Introduction from "../components/introduction"
 
 export default () => (
   <div className="container">
     <header>
       <img className="max-logo" src={logo} alt="MAXX Potential Logo" />
-      <div className="designer-quote">
-        <h2 className="intro">HELLO I'M SAM</h2>
-        <h3 className="title">Web Designer</h3>
-      </div>
+      <Introduction name="SAM" />
     </header>
     <section className="content">
-      <Jumbotron src={hero} alt="Big mountain with snow on it with blue lake at bottom and trees all around" />
-      <h2 className="cards-title">PORTFOLIO</h2>
+      <Jumbotron
+        src={hero}
+        alt="Big mountain with snow on it with blue lake at bottom and trees all around"
+      />
+      <p className="cards-title">PORTFOLIO</p>
       <div className="deck">
         <Card
           siteName="test"

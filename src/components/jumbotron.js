@@ -1,6 +1,6 @@
 import React from "react"
-import containerStyle from './jumbotron.module.css'
+import styles from './jumbotron.module.css'
 
 export default props => (
-    <img className={containerStyle.container} src={props.src} alt={props.alt} />
+    <img className={styles.container} src={props.src} alt={props.alt} />
 )

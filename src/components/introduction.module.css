@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("../fonts/Helvetica-Neue-Bold.ttf");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  margin: 0;
+  font-family: "Helvetica Neue Bold";
+  font-size: 28px;
+}
+
+.title {
+  margin: 0;
+}
