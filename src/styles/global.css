@@ -14,6 +14,14 @@
   }
 }
 
+@media (max-width: 650px) {
+  .deck {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
 body {
   margin: 0;
 }
@@ -49,12 +57,4 @@ header {
 .deck {
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 650px) {
-  .deck {
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-  }
 }

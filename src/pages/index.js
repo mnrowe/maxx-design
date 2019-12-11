@@ -12,7 +12,7 @@ import Introduction from "../components/introduction"
 export default () => (
   <div className="container">
     <header>
-      <img className="max-logo" src={logo} alt="MAXX Potential Logo" />
+        <img className="max-logo" src={logo} alt="MAXX Potential Logo" />
       <Introduction name="SAM" />
     </header>
     <section className="content">
