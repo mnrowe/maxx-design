@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Baskerville Italic";
+  src: url('../fonts/Baskerville-Italic.ttf');
+}
+
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../fonts/Helvetica-Neue-Light.ttf");
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -17,7 +28,19 @@
   text-align: center;
 }
 
+.title {
+  font-family: "Helvetica Neue Light";
+  font-size: 28px;
+}
+
+.url {
+  color: #bb1f25;
+  font-family: "Bakersville Italic";
+  font-size: 24px;
+}
+
 .textContainer {
-  border-top: 2px solid;
-  border-bottom: 4px solid;
+  border-top: 2px solid #0d4b6e;
+  border-bottom: 4px solid #0d4b6e;
+  padding: 0 10px;
 }

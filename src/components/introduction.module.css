@@ -3,10 +3,16 @@
   src: url("../fonts/Helvetica-Neue-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Helvetica Neue Light";
+  src: url("../fonts/Helvetica-Neue-Light.ttf");
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: #3d3d3d;
 }
 
 .intro {
@@ -17,4 +23,6 @@
 
 .title {
   margin: 0;
+  font-family: "Helvetica Neue Light";
+  font-size: 24px;
 }
