@@ -6,5 +6,8 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    `gatsby-plugin-favicon`
+  ],
   pathPrefix: "/maxx-design",
 }
